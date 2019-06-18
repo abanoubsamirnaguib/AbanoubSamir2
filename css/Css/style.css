@@ -421,7 +421,7 @@
     position: static;
   }
   .po-first nav .navbar-toggler {
-    margin: 0px 0px 0px 20%;
+    margin: 0px 0px 0px 15%;
     justify-content: flex-start;
   }
   .po-first .intro {
@@ -453,7 +453,7 @@
     font-weight: bolder;
     font-family: "Lobster", cursive;
     letter-spacing: 2px;
-    margin-left: 18%;
+    margin-left: 15%;
   }
   .po-first .about-me a svg {
     margin: 0px 0px 50px 10px;

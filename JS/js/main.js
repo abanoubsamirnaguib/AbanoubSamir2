@@ -10,10 +10,13 @@ $(document).ready(function (){
                         
 		});
                 console.log("width = " + $winwidth + "height = "+ $winheight );
-		$(window).on("resize", function(){ 
+		$(window).on("resize", function(){
+		var $winwidth2 = $(window).width();
+		var $winheight2 = $(window).height();
+                var $winNav2 = $('#navbar-example2').height(); 
 			$("#first , .po-bg-dark ").css({
-				width: $winwidth,
-                                height: $winheight - $winNav   
+				width: $winwidth2,
+                                height: $winheight2 - $winNav2   
 			});                   
 		 }); 
   

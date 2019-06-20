@@ -368,7 +368,8 @@ and open the template in the editor.
                        <h4 style="color:whitesmoke; font-weight:bolder; padding-bottom:20px; text-decoration:underline;font-family: 'Nova Flat', cursive;">Fill The Form For Contact ME</h4>
                        <p style="font-size:18px; padding-bottom:20px;font-family: 'Pacifico', cursive; "> Please Feel Free To Contact Me Anytime</p>
                    </div>
-                             <form name="contactform" method="post" action="php/send_form_email.php">
+                             <form name="contactform" method="post" action="https://formspree.io/abanoubsamir@gmail.com" >
+ ">
                    <div class="form-row">
                       <div class="col-md-6">
                       <div class="input-group mb-2">    
@@ -377,12 +378,12 @@ and open the template in the editor.
                       </div>
                            <div class="input-group mb-2">    
                      <div class="input-group-prepend"><div class="input-group-text">Your Email @</div></div>
-                     <input name="email" type="text" class="form-control form-control-lg" placeholder="Your Email"><br>
+                     <input name="_replyto" type="text" class="form-control form-control-lg" placeholder="Your Email"><br>
                        </div>
                      <input name="telephone" type="text" class="form-control form-control-lg" placeholder="Your Phone Number"><br>
                       </div>
                        <div class="col-md-6 ">
-                           <textarea class="form-control form-control-lg mb-2" name="comments" placeholder="Your Massage Here"  rows="3"></textarea>
+                           <textarea class="form-control form-control-lg mb-2" name="body" placeholder="Your Massage Here"  rows="3"></textarea>
                            <button class="btn btn-primary btn-lg btn-block">Send Message</button>
                        </div>
                    </div>                  
